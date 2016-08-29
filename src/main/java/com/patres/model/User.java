@@ -30,7 +30,7 @@ public class User {
     public String toString() {
         return String.format(
                 "Customer[id=%d, firstName='%s', lastName='%s']",
-                id, getFirstName(), getLastName());
+                getId(), getFirstName(), getLastName());
     }
 
     public String getFirstName() {
@@ -47,5 +47,9 @@ public class User {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public long getId() {
+        return id;
     }
 }
