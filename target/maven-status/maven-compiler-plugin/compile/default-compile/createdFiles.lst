@@ -1,0 +1,4 @@
+com\patres\model\User.class
+com\patres\controller\UserController.class
+com\patres\LunchinApplication.class
+com\patres\model\UserRepository.class

@@ -1,0 +1,14 @@
+<h1>hello world</h1>
+<table>
+    <thead>
+    <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr data-th-each="user : ${userList}">
+        <td data-th-text="${user.firstName}">user number </td>
+    </tr>
+    </tbody>
+</table>
